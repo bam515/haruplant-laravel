@@ -41,25 +41,28 @@
 
 /backend (Laravel)   
 ├── routes/   
-│ ├── api.php   
-│ └── web.php   
+&nbsp;&nbsp;&nbsp;&nbsp;├── api.php   
+&nbsp;&nbsp;&nbsp;&nbsp;└── web.php   
 ├── app/   
-│ ├── Http/Controllers/   
-│ ├── Models/   
+&nbsp;&nbsp;&nbsp;&nbsp;├── Http/Controllers/   
+&nbsp;&nbsp;&nbsp;&nbsp;└── Models/   
 ├── tests/   
+   
 /frontend   
-├── resources/views/   
-│ ├── layouts/ # 공통 레이아웃   
-│ ├── auth/ # 로그인, 회원가입   
-│ ├── plants/ # 내 화단 관련 페이지   
-│ └── community/ # 모두의 화단   
-│ └── profile/ # 마이페이지      
-│ └── admin/ # 관리자   
-│ └── notices/ # 공지사항   
+└── resources/views/   
+&nbsp;&nbsp;&nbsp;&nbsp;├── layouts/ # 공통 레이아웃   
+&nbsp;&nbsp;&nbsp;&nbsp;├── auth/ # 로그인, 회원가입   
+&nbsp;&nbsp;&nbsp;&nbsp;├── plants/ # 내 화단 관련 페이지   
+&nbsp;&nbsp;&nbsp;&nbsp;├── community/ # 모두의 화단   
+&nbsp;&nbsp;&nbsp;&nbsp;├── profile/ # 마이페이지   
+&nbsp;&nbsp;&nbsp;&nbsp;├── admin/ # 관리자   
+&nbsp;&nbsp;&nbsp;&nbsp;└── notices/ # 공지사항   
+   
 /docker   
 ├── docker-compose.yml   
 ├── Dockerfile.backend   
-└── Dockerfile.frontend
+└── Dockerfile.frontend   
+
 ---
 
 ## 📍 라우팅 설계
@@ -126,4 +129,5 @@ Swagger (OpenAPI 3.0) 기반 자동 문서 생성
 GitHub: github.com/bam515
 
 기술 관심사: Java/Spring, PHP/Laravel
+
 
